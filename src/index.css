@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+*{
+  font-family:'RobotoMono', monospace;
+}
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
