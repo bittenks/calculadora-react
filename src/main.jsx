@@ -10,7 +10,7 @@ import viteIcon from '../public/vite.svg'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <>
 <h1>Calculator</h1>
- <span> created in <img src={ReactIcon} /> + <img src={viteIcon} /> !</span>
+ <span> created with <img src={ReactIcon} /> + <img src={viteIcon} /> = ❤ !</span>
  <Calculator/>
 </>
 )
