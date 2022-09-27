@@ -19,7 +19,9 @@ body {
   text-align: center;
   color: #fff;
 }
-
+ img{
+  width: 19px;
+ }
 
 @media (prefers-color-scheme: light) {
   :root {

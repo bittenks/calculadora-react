@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './calculator.css'
 import Button from '../assets/components/Button'
 import Display from '../assets/components/Display'
-
 const initialState ={
   displayValue:'0',
   clearDisplay : false,
